@@ -1,71 +1,102 @@
-# Getting Started with Create React App
+# ENTNT Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React-based web application built to assist businesses in efficiently managing and monitoring their interactions with different companies. It offers features such as logging communication records, scheduling follow-ups, maintaining a detailed company database, and sending notifications for overdue communications.
 
-## Available Scripts
+## Technology Stack
+* React.js
+* React Router
+* Context API for state management
+* Lucide React for icons
+* CSS for styling
+* used react-big-calendar for calendar view
 
-In the project directory, you can run:
+## Prerequisites
+* Node.js (v16.0.0 or later)
 
-### `npm start`
+* npm (v8.0.0 or later)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* A modern web browser
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup and Installation
 
-### `npm test`
+Use the package manager npm to install Communication Tracker.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 1. Clone the Repository
 
-### `npm run build`
+bash
+git clone https://github.com/YashTushar/Entnt_assessement
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 2. Install Dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+bash
+npm install
 
-### `npm run eject`
+## 3. Run the Application
+bash
+# Development Mode
+npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Production Build
+npm run build
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Deployment
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+*Netlify*
 
-## Learn More
+To deploy this project run
+bash
+npm run build
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Then Upload build file to Netlify
 
-### Code Splitting
+## Application Functionality
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+*Key Features*
 
-### Analyzing the Bundle Size
+* *Dashboard Views*
+    * Overview of communication status for each company
+    * Users can select a specific company or multi-select multiple companies to log communication and 
+    * When hovering over a completed communication, a tooltip will display the notes or comments recorded for that communication.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* *Admin Module*
+    * Add new companies
+    * Manage communication methods
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* *Calendar View*
+    * View Past Communications
+    * View and manage Upcoming Communications
 
-### Advanced Configuration
+   
+* *Company List*
+    * View All the companies
+    * Edit and delete companies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+* *Notification*
+    * View all overdue and due communications 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## Known Limitations
+* No built-in authentication system
+* Relies on client-side state management
+* No persistent data storage (requires backend integration)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-#
+
+
+## Future Roadmap
+* Implement user authentication
+* Add backend database integration
+* Develop reporting and analytics features
+
+
+## License
+This project has been build by Yash Singhal from IIIT Sonepat.
+
+## Contact
+YASH SINGHAL - yash.singhal1112@gmail.com
+
+Deployed Project Link: https://incomparable-granita-2c186c.netlify.app/
