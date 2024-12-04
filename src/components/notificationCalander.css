@@ -1,0 +1,111 @@
+/* Light Theme Calendar View */
+.calendar-view {
+  background-color: #f9fafb; /* Light background for the overall container */
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.calendar-view h1 {
+  color: #1a202c; /* Dark text for heading */
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 600;
+  border-bottom: 2px solid #e2e8f0; /* Light border for separation */
+  padding-bottom: 15px;
+}
+
+.rbc-calendar {
+  min-height: 600px;
+  background-color: #ffffff; /* White background for the calendar */
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.rbc-month-view {
+  background-color: #f9fafb; /* Light background for month view */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.rbc-header {
+  background-color: #2563eb; /* Bright blue header */
+  color: #ffffff; /* White text for the header */
+  padding: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.rbc-event {
+  background-color: #3b82f6; /* Bright blue for events */
+  border-radius: 6px;
+  opacity: 0.9;
+  transition: all 0.3s ease;
+}
+
+.rbc-event:hover {
+  opacity: 1;
+  transform: scale(1.02);
+}
+
+.event-details-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Lightened modal background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.event-details-content {
+  background-color: #ffffff; /* White background for modal */
+  border-radius: 12px;
+  padding: 30px;
+  width: 400px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.event-details-content h2 {
+  color: #1a202c; /* Dark heading text */
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e2e8f0; /* Light border under the heading */
+  padding-bottom: 15px;
+}
+
+.event-details-content p {
+  margin-bottom: 15px;
+  color: #4a5568; /* Muted text for paragraphs */
+}
+
+.event-details-content button {
+  background-color: #2563eb; /* Blue button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.event-details-content button:hover {
+  background-color: #1d4ed8; /* Slightly darker blue on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .event-details-content {
+    width: 90%;
+    margin: 0 5%;
+  }
+
+  .calendar-view {
+    padding: 20px;
+  }
+}

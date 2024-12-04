@@ -1,0 +1,125 @@
+/* Global Styles */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7fafc; /* Soft light background */
+  color: #1a202c; /* Dark text for good readability */
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navigation Styles */
+.main-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff; /* White navigation bar */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #2563eb; /* Accent blue for logo */
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #4a5568; /* Dark text for links */
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #2563eb; /* Bright blue hover color */
+}
+
+/* Form Styles */
+form {
+  background-color: #ffffff; /* White form background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+  margin-bottom: 20px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #cbd5e1; /* Light gray border */
+  border-radius: 4px;
+  background-color: #ffffff; /* White input background */
+  color: #1a202c; /* Dark input text */
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #718096; /* Muted placeholder text */
+}
+
+button {
+  background-color: #2563eb; /* Bright blue button */
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1d4ed8; /* Slightly darker blue on hover */
+}
+
+/* Modal Styles */
+.communication-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent dark overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.communication-modal form {
+  width: 400px;
+  background-color: #ffffff; /* White modal background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for modal */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-navigation {
+    flex-direction: column;
+  }
+
+  .nav-links {
+    margin-top: 15px;
+  }
+
+  .logo {
+    font-size: 1.2em; /* Smaller logo on mobile */
+  }
+}
