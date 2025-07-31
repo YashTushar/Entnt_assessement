@@ -1,4 +1,4 @@
-# ENTNT Assignment
+# CompanyLogix
 
 
 <img width="1539" height="862" alt="image" src="https://github.com/user-attachments/assets/a68e7bd9-1639-4376-a501-29e5b7befbb0" />
