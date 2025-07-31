@@ -1,5 +1,11 @@
 # ENTNT Assignment
 
+
+<img width="1539" height="862" alt="image" src="https://github.com/user-attachments/assets/a68e7bd9-1639-4376-a501-29e5b7befbb0" />
+
+
+
+
 This is a React-based web application built to assist businesses in efficiently managing and monitoring their interactions with different companies. It offers features such as logging communication records, scheduling follow-ups, maintaining a detailed company database, and sending notifications for overdue communications.
 
 ## Technology Stack
